@@ -1,0 +1,172 @@
+readelf: Warning: Section 1 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 4 has an out of range sh_link value of 2390753326
+readelf: Warning: Section 5 has an out of range sh_link value of 2475884544
+readelf: Warning: Section 9 has an out of range sh_link value of 128
+readelf: Warning: Section 10 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 11 has an out of range sh_link value of 128
+readelf: Warning: Section 12 has an out of range sh_link value of 128
+readelf: Warning: Section 14 has an out of range sh_link value of 128
+readelf: Warning: Section 15 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 16 has an out of range sh_link value of 128
+readelf: Warning: Section 17 has an out of range sh_link value of 128
+readelf: Warning: Section 18 has an out of range sh_link value of 128
+readelf: Warning: Section 19 has an out of range sh_link value of 128
+readelf: Warning: Section 21 has an out of range sh_link value of 128
+readelf: Warning: Section 22 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 23 has an out of range sh_link value of 128
+readelf: Warning: Section 24 has an out of range sh_link value of 128
+readelf: Warning: Section 25 has an out of range sh_link value of 25708
+readelf: Warning: Section 26 has an out of range sh_link value of 8426387
+readelf: Warning: Section 28 has an out of range sh_link value of 8426387
+readelf: Warning: Section 30 has an out of range sh_link value of 128
+readelf: Warning: Section 31 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 32 has an out of range sh_link value of 128
+readelf: Warning: Section 33 has an out of range sh_link value of 128
+readelf: Warning: Section 35 has an out of range sh_link value of 8426387
+readelf: Warning: Section 37 has an out of range sh_link value of 128
+readelf: Warning: Section 38 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 39 has an out of range sh_link value of 128
+readelf: Warning: Section 40 has an out of range sh_link value of 128
+readelf: Warning: Section 42 has an out of range sh_link value of 128
+readelf: Warning: Section 43 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 44 has an out of range sh_link value of 128
+readelf: Warning: Section 45 has an out of range sh_link value of 128
+readelf: Warning: Section 46 has an out of range sh_link value of 128
+readelf: Warning: Section 47 has an out of range sh_link value of 128
+readelf: Warning: Section 49 has an out of range sh_link value of 128
+readelf: Warning: Section 50 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 51 has an out of range sh_link value of 128
+readelf: Warning: Section 52 has an out of range sh_link value of 128
+readelf: Warning: Section 53 has an out of range sh_link value of 25708
+readelf: Warning: Section 68 has an out of range sh_link value of 1919907616
+readelf: Warning: Section 69 has an out of range sh_link value of 6386785
+readelf: Warning: Section 72 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 75 has an out of range sh_link value of 2390753326
+readelf: Warning: Section 76 has an out of range sh_link value of 2475884544
+readelf: Warning: Section 80 has an out of range sh_link value of 128
+readelf: Warning: Section 81 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 82 has an out of range sh_link value of 128
+readelf: Error: Section 3 has invalid sh_entsize of 00000000b8630010
+readelf: Error: (Using the expected size of 4 for the rest of this dump)
+readelf: Error: Section 7 has invalid sh_entsize of 0000000093939393
+readelf: Error: (Using the expected size of 4 for the rest of this dump)
+readelf: Error: Section 70 has invalid sh_entsize of 0000000000000004
+readelf: Error: (Using the expected size of 12 for the rest of this dump)
+readelf: Error: Section 74 has invalid sh_entsize of 00000000b8630010
+readelf: Error: (Using the expected size of 4 for the rest of this dump)
+readelf: Error: Section 78 has invalid sh_entsize of 0000000093939393
+readelf: Error: (Using the expected size of 4 for the rest of this dump)
+readelf: Warning: [ 0]: Link field (0) should index a symtab section.
+readelf: Warning: [ 1]: Link field (2475922323) should index a symtab section.
+readelf: Warning: section 1: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: [ 2]: Link field (0) should index a symtab section.
+readelf: Warning: [ 3]: Link field (12) should index a symtab section.
+readelf: Warning: [ 4]: Unexpected value (1635021428) in info field.
+readelf: Warning: section 4: sh_link value of 2390753326 is larger than the number of sections
+readelf: Warning: section 5: sh_link value of 2475884544 is larger than the number of sections
+readelf: Warning: [ 7]: Link field (0) should index a symtab section.
+readelf: Warning: section 9: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [10]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 10: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 11: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [12]: Unexpected value (12) in info field.
+readelf: Warning: section 12: sh_link value of 128 is larger than the number of sections
+readelf: Warning: section 14: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [15]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 15: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 16: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [17]: Unexpected value (12) in info field.
+readelf: Warning: section 17: sh_link value of 128 is larger than the number of sections
+readelf: Warning: section 18: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [19]: Unexpected value (12) in info field.
+readelf: Warning: section 19: sh_link value of 128 is larger than the number of sections
+readelf: Warning: section 21: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [22]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 22: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 23: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [24]: Unexpected value (12) in info field.
+readelf: Warning: section 24: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [25]: Unexpected value (2390753326) in info field.
+readelf: Warning: section 25: sh_link value of 25708 is larger than the number of sections
+readelf: Warning: section 26: sh_link value of 8426387 is larger than the number of sections
+readelf: Warning: [28]: Unexpected value (2475884544) in info field.
+readelf: Warning: section 28: sh_link value of 8426387 is larger than the number of sections
+readelf: Warning: section 30: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [31]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 31: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 32: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [33]: Unexpected value (12) in info field.
+readelf: Warning: section 33: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [35]: Unexpected value (2475884544) in info field.
+readelf: Warning: section 35: sh_link value of 8426387 is larger than the number of sections
+readelf: Warning: section 37: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [38]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 38: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 39: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [40]: Unexpected value (12) in info field.
+readelf: Warning: section 40: sh_link value of 128 is larger than the number of sections
+readelf: Warning: section 42: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [43]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 43: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 44: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [45]: Unexpected value (12) in info field.
+readelf: Warning: section 45: sh_link value of 128 is larger than the number of sections
+readelf: Warning: section 46: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [47]: Unexpected value (12) in info field.
+readelf: Warning: section 47: sh_link value of 128 is larger than the number of sections
+readelf: Warning: section 49: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [50]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 50: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 51: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [52]: Unexpected value (12) in info field.
+readelf: Warning: section 52: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [53]: Unexpected value (2390753326) in info field.
+readelf: Warning: section 53: sh_link value of 25708 is larger than the number of sections
+readelf: Warning: [67]: Unexpected value (164) in info field.
+readelf: Warning: section 68: sh_link value of 1919907616 is larger than the number of sections
+readelf: Warning: section 69: sh_link value of 6386785 is larger than the number of sections
+readelf: Warning: [70]: Link field (0) should index a symtab section.
+readelf: Warning: [70]: Info field (16775680) should index a relocatable section.
+readelf: Warning: [71]: Link field (0) should index a symtab section.
+readelf: Warning: [72]: Link field (2475922323) should index a symtab section.
+readelf: Warning: section 72: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: [73]: Link field (0) should index a symtab section.
+readelf: Warning: [74]: Link field (12) should index a symtab section.
+readelf: Warning: [75]: Unexpected value (1635021428) in info field.
+readelf: Warning: section 75: sh_link value of 2390753326 is larger than the number of sections
+readelf: Warning: section 76: sh_link value of 2475884544 is larger than the number of sections
+readelf: Warning: [78]: Link field (0) should index a symtab section.
+readelf: Warning: section 80: sh_link value of 128 is larger than the number of sections
+readelf: Warning: [81]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 81: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: section 82: sh_link value of 128 is larger than the number of sections
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+==78210==WARNING: AddressSanitizer failed to allocate 0x3bffe8000 bytes
+==78210==AddressSanitizer's allocator is terminating the process instead of returning 0
+==78210==If you don't like this behavior set allocator_may_return_null=1
+==78210==AddressSanitizer CHECK failed: /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225 "((0)) != (0)" (0x0, 0x0)
+    #0 0x4e3805 in __asan::AsanCheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_rtl.cc:69
+    #1 0x5010c5 in __sanitizer::CheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_termination.cc:79
+    #2 0x4e9c06 in __sanitizer::ReportAllocatorCannotReturnNull() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225
+    #3 0x4e9c46 in __sanitizer::ReturnNullOrDieOnFailure::OnBadRequest() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:241
+    #4 0x41faf6 in __asan::asan_malloc(unsigned long, __sanitizer::BufferedStackTrace*) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_allocator.cc:856
+    #5 0x4da68b in __interceptor_malloc /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_malloc_linux.cc:89
+    #6 0x696eaa in xmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/libiberty/./xmalloc.c:148:12
+    #7 0x60dbdf in cmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/dwarf.c:7450:10
+    #8 0x5735b6 in get_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4761:33
+    #9 0x53ce21 in process_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4814:9
+    #10 0x52bcf4 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:16751:7
+    #11 0x518897 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17138:13
+    #12 0x51643b in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17209:12
+    #13 0x7fd6bc46f83f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+    #14 0x41a768 in _start (/workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf+0x41a768)
+

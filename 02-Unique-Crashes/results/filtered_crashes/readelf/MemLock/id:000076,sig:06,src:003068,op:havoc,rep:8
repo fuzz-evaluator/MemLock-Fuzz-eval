@@ -1,0 +1,42 @@
+readelf: Warning: Section 0 has an out of range sh_link value of 12
+readelf: Warning: Section 1 has an out of range sh_link value of 134512756
+readelf: Warning: Section 2 has an out of range sh_link value of 33562624
+readelf: Warning: Section 3 has an out of range sh_link value of 268435456
+readelf: Error: Reading 0xfb bytes extends past end of file for string table
+readelf: Error: Section 0 has invalid sh_entsize of 000000001b000004
+readelf: Error: (Using the expected size of 4 for the rest of this dump)
+readelf: Error: Section 1 has invalid sh_entsize of 0000000000000000
+readelf: Error: (Using the expected size of 4 for the rest of this dump)
+readelf: Error: Section 3 has invalid sh_entsize of 0000000000000000
+readelf: Error: (Using the expected size of 12 for the rest of this dump)
+readelf: Warning: [ 0]: Link field (12) should index a symtab section.
+readelf: Warning: section 0: sh_link value of 12 is larger than the number of sections
+readelf: Warning: [ 1]: Link field (134512756) should index a symtab section.
+readelf: Warning: section 1: sh_link value of 134512756 is larger than the number of sections
+readelf: Warning: [ 2]: Unexpected value (10240) in info field.
+readelf: Warning: section 2: sh_link value of 33562624 is larger than the number of sections
+readelf: Warning: [ 3]: Link field (268435456) should index a symtab section.
+readelf: Warning: [ 3]: Info field (140) should index a relocatable section.
+readelf: Warning: section 3: sh_link value of 268435456 is larger than the number of sections
+readelf: Error: Bad sh_link in group section `<no-name>'
+readelf: Error: Bad sh_link in group section `<no-name>'
+==83070==WARNING: AddressSanitizer failed to allocate 0x100000000 bytes
+==83070==AddressSanitizer's allocator is terminating the process instead of returning 0
+==83070==If you don't like this behavior set allocator_may_return_null=1
+==83070==AddressSanitizer CHECK failed: /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225 "((0)) != (0)" (0x0, 0x0)
+    #0 0x4e3805 in __asan::AsanCheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_rtl.cc:69
+    #1 0x5010c5 in __sanitizer::CheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_termination.cc:79
+    #2 0x4e9c06 in __sanitizer::ReportAllocatorCannotReturnNull() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225
+    #3 0x4e9c46 in __sanitizer::ReturnNullOrDieOnFailure::OnBadRequest() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:241
+    #4 0x41faf6 in __asan::asan_malloc(unsigned long, __sanitizer::BufferedStackTrace*) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_allocator.cc:856
+    #5 0x4da68b in __interceptor_malloc /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_malloc_linux.cc:89
+    #6 0x696eaa in xmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/libiberty/./xmalloc.c:148:12
+    #7 0x60dbdf in cmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/dwarf.c:7450:10
+    #8 0x5735b6 in get_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4761:33
+    #9 0x53ce21 in process_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4814:9
+    #10 0x52bcf4 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:16751:7
+    #11 0x518897 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17138:13
+    #12 0x51643b in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17209:12
+    #13 0x7f8a296f883f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+    #14 0x41a768 in _start (/workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf+0x41a768)
+

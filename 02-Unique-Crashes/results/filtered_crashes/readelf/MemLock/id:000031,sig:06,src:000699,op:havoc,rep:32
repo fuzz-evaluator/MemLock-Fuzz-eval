@@ -1,0 +1,66 @@
+readelf: Warning: Section 0 has an out of range sh_link value of 7624278
+readelf: Warning: Section 1 has an out of range sh_link value of 318963712
+readelf: Warning: Section 2 has an out of range sh_link value of 544173185
+readelf: Warning: Section 3 has an out of range sh_link value of 440
+readelf: Warning: Section 4 has an out of range sh_link value of 2475922323
+readelf: Warning: Section 5 has an out of range sh_link value of 67633152
+readelf: Warning: Section 6 has an out of range sh_link value of 2155905152
+readelf: Warning: Section 8 has an out of range sh_link value of 2155905152
+readelf: Warning: Section 9 has an out of range sh_link value of 1448498774
+readelf: Warning: Section 10 has an out of range sh_link value of 1728118784
+readelf: Warning: Section 11 has an out of range sh_link value of 1734829927
+readelf: Warning: Section 11 has an out of range sh_info value of 1734829927
+readelf: Warning: Section 12 has an out of range sh_link value of 1734829927
+readelf: Warning: Section 12 has an out of range sh_info value of 1734829927
+readelf: Warning: Section 13 has an out of range sh_link value of 1734829927
+readelf: Warning: Section 13 has an out of range sh_info value of 1734829927
+readelf: Warning: Section 14 has an out of range sh_link value of 1734829927
+readelf: Warning: Section 14 has an out of range sh_info value of 1734829927
+readelf: Warning: Section 15 has an out of range sh_link value of 1734829927
+readelf: Warning: Section 15 has an out of range sh_info value of 1734829927
+readelf: Error: Section 8 has invalid sh_entsize of 000000008b808080
+readelf: Error: (Using the expected size of 12 for the rest of this dump)
+readelf: Warning: section 0: sh_link value of 7624278 is larger than the number of sections
+readelf: Warning: [ 1]: Unexpected value (2424307712) in info field.
+readelf: Warning: section 1: sh_link value of 318963712 is larger than the number of sections
+readelf: Warning: [ 2]: Unexpected value (1819438967) in info field.
+readelf: Warning: section 2: sh_link value of 544173185 is larger than the number of sections
+readelf: Warning: [ 3]: Unexpected value (2800417) in info field.
+readelf: Warning: section 3: sh_link value of 440 is larger than the number of sections
+readelf: Warning: [ 4]: Unexpected value (2475922323) in info field.
+readelf: Warning: section 4: sh_link value of 2475922323 is larger than the number of sections
+readelf: Warning: [ 5]: Link field (67633152) should index a symtab section.
+readelf: Warning: [ 5]: Unexpected value (16777984) in info field.
+readelf: Warning: section 5: sh_link value of 67633152 is larger than the number of sections
+readelf: Warning: section 6: sh_link value of 2155905152 is larger than the number of sections
+readelf: Warning: [ 8]: Link field (2155905152) should index a symtab section.
+readelf: Warning: [ 8]: Info field (2155905152) should index a relocatable section.
+readelf: Warning: section 8: sh_link value of 2155905152 is larger than the number of sections
+readelf: Warning: section 9: sh_link value of 1448498774 is larger than the number of sections
+readelf: Warning: [10]: Unexpected value (1734829927) in info field.
+readelf: Warning: section 10: sh_link value of 1728118784 is larger than the number of sections
+readelf: Warning: [11]: Expected link to another section in info fieldreadelf: Warning: section 11: sh_link value of 1734829927 is larger than the number of sections
+readelf: Warning: [12]: Expected link to another section in info fieldreadelf: Warning: section 12: sh_link value of 1734829927 is larger than the number of sections
+readelf: Warning: [13]: Expected link to another section in info fieldreadelf: Warning: section 13: sh_link value of 1734829927 is larger than the number of sections
+readelf: Warning: [14]: Expected link to another section in info fieldreadelf: Warning: section 14: sh_link value of 1734829927 is larger than the number of sections
+readelf: Warning: [15]: Expected link to another section in info fieldreadelf: Warning: section 15: sh_link value of 1734829927 is larger than the number of sections
+==78160==WARNING: AddressSanitizer failed to allocate 0x1d00000400 bytes
+==78160==AddressSanitizer's allocator is terminating the process instead of returning 0
+==78160==If you don't like this behavior set allocator_may_return_null=1
+==78160==AddressSanitizer CHECK failed: /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225 "((0)) != (0)" (0x0, 0x0)
+    #0 0x4e3805 in __asan::AsanCheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_rtl.cc:69
+    #1 0x5010c5 in __sanitizer::CheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_termination.cc:79
+    #2 0x4e9c06 in __sanitizer::ReportAllocatorCannotReturnNull() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225
+    #3 0x4e9c46 in __sanitizer::ReturnNullOrDieOnFailure::OnBadRequest() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:241
+    #4 0x41faf6 in __asan::asan_malloc(unsigned long, __sanitizer::BufferedStackTrace*) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_allocator.cc:856
+    #5 0x4da68b in __interceptor_malloc /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_malloc_linux.cc:89
+    #6 0x696eaa in xmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/libiberty/./xmalloc.c:148:12
+    #7 0x60dbdf in cmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/dwarf.c:7450:10
+    #8 0x5735b6 in get_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4761:33
+    #9 0x53ce21 in process_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4814:9
+    #10 0x52bcf4 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:16751:7
+    #11 0x518897 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17138:13
+    #12 0x51643b in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17209:12
+    #13 0x7f24f243e83f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+    #14 0x41a768 in _start (/workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf+0x41a768)
+

@@ -1,0 +1,42 @@
+readelf: Warning: Section 0 has an out of range sh_link value of 2189591170
+readelf: Warning: Section 1 has an out of range sh_link value of 2189591170
+readelf: Warning: Section 2 has an out of range sh_link value of 2189591170
+readelf: Warning: Section 3 has an out of range sh_link value of 268435457
+readelf: Warning: Section 5 has an out of range sh_link value of 1752367120
+readelf: Warning: Section 6 has an out of range sh_link value of 2189591170
+readelf: Warning: Section 7 has an out of range sh_link value of 66560
+readelf: Warning: Section 10 has an out of range sh_link value of 192768
+readelf: Error: Reading 0x4000002 bytes extends past end of file for string table
+readelf: Warning: section 0: sh_link value of 2189591170 is larger than the number of sections
+readelf: Warning: section 1: sh_link value of 2189591170 is larger than the number of sections
+readelf: Warning: section 2: sh_link value of 2189591170 is larger than the number of sections
+readelf: Warning: [ 3]: Unexpected value (184559842) in info field.
+readelf: Warning: section 3: sh_link value of 268435457 is larger than the number of sections
+readelf: Warning: [ 4]: Unexpected value (544145408) in info field.
+readelf: Warning: section 5: sh_link value of 1752367120 is larger than the number of sections
+readelf: Warning: [ 6]: Unexpected value (2189591170) in info field.
+readelf: Warning: section 6: sh_link value of 2189591170 is larger than the number of sections
+readelf: Warning: [ 7]: Unexpected value (685903872) in info field.
+readelf: Warning: section 7: sh_link value of 66560 is larger than the number of sections
+readelf: Warning: [10]: Unexpected value (4292927232) in info field.
+readelf: Warning: section 10: sh_link value of 192768 is larger than the number of sections
+==101361==WARNING: AddressSanitizer failed to allocate 0x20a0a0a080 bytes
+==101361==AddressSanitizer's allocator is terminating the process instead of returning 0
+==101361==If you don't like this behavior set allocator_may_return_null=1
+==101361==AddressSanitizer CHECK failed: /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225 "((0)) != (0)" (0x0, 0x0)
+    #0 0x4e37a5 in __asan::AsanCheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_rtl.cc:69
+    #1 0x501065 in __sanitizer::CheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_termination.cc:79
+    #2 0x4e9ba6 in __sanitizer::ReportAllocatorCannotReturnNull() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225
+    #3 0x4e9be6 in __sanitizer::ReturnNullOrDieOnFailure::OnBadRequest() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:241
+    #4 0x41fa96 in __asan::asan_malloc(unsigned long, __sanitizer::BufferedStackTrace*) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_allocator.cc:856
+    #5 0x4da62b in __interceptor_malloc /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_malloc_linux.cc:89
+    #6 0x69439b in xmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/libiberty/./xmalloc.c:148:12
+    #7 0x60bd5f in cmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/dwarf.c:7450:10
+    #8 0x571cb6 in get_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:4761:33
+    #9 0x53bd91 in process_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:4814:9
+    #10 0x52b014 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:16751:7
+    #11 0x518077 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17138:13
+    #12 0x515c56 in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17209:12
+    #13 0x7f547135083f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+    #14 0x41a708 in _start (/workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf+0x41a708)
+

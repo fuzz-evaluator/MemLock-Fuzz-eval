@@ -1,0 +1,67 @@
+readelf: Warning: Section 0 has an out of range sh_link value of 185272843
+readelf: Warning: Section 1 has an out of range sh_link value of 3758110776
+readelf: Warning: Section 2 has an out of range sh_link value of 875836468
+readelf: Warning: Section 3 has an out of range sh_link value of 875836468
+readelf: Error: Reading 0x34343434 bytes extends past end of file for string table
+readelf: Warning: [ 0]: Unexpected value (943196939) in info field.
+readelf: Warning: section 0: sh_link value of 185272843 is larger than the number of sections
+readelf: Warning: section 1: sh_link value of 3758110776 is larger than the number of sections
+readelf: Warning: [ 2]: Link field (875836468) should index a string section.
+readelf: Warning: section 2: sh_link value of 875836468 is larger than the number of sections
+readelf: Warning: [ 3]: Unexpected value (353703189) in info field.
+readelf: Warning: section 3: sh_link value of 875836468 is larger than the number of sections
+readelf: Error: The e_phentsize field in the ELF header is less than the size of an ELF program header
+=================================================================
+==116781==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x6130000001ac at pc 0x00000067de6d bp 0x7ffd7083db80 sp 0x7ffd7083db78
+READ of size 1 at 0x6130000001ac thread T0
+    #0 0x67de6c in byte_get_little_endian /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/elfcomm.c:150:26
+    #1 0x55070a in process_version_sections /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:10022:18
+    #2 0x52b0b7 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:16762:3
+    #3 0x518077 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17138:13
+    #4 0x515c56 in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17209:12
+    #5 0x7fbd4a60e83f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+    #6 0x41a708 in _start (/workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf+0x41a708)
+
+0x6130000001ac is located 0 bytes to the right of 364-byte region [0x613000000040,0x6130000001ac)
+allocated by thread T0 here:
+    #0 0x4da650 in __interceptor_malloc /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_malloc_linux.cc:88
+    #1 0x518bcb in get_data /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:392:9
+    #2 0x54fc16 in process_version_sections /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:9974:17
+    #3 0x52b0b7 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:16762:3
+    #4 0x518077 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17138:13
+    #5 0x515c56 in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17209:12
+    #6 0x7fbd4a60e83f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/elfcomm.c:150:26 in byte_get_little_endian
+Shadow bytes around the buggy address:
+  0x0c267fff7fe0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c267fff7ff0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c267fff8000: fa fa fa fa fa fa fa fa 00 00 00 00 00 00 00 00
+  0x0c267fff8010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x0c267fff8020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x0c267fff8030: 00 00 00 00 00[04]fa fa fa fa fa fa fa fa fa fa
+  0x0c267fff8040: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c267fff8050: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c267fff8060: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c267fff8070: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x0c267fff8080: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==116781==ABORTING

@@ -1,0 +1,1 @@
+MEMLOCK_DOCKER_IMAGE_NAME="memlock"

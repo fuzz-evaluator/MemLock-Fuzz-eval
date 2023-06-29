@@ -1,0 +1,35 @@
+readelf: Warning: Section 0 has an out of range sh_link value of 531693823
+readelf: Warning: Section 1 has an out of range sh_link value of 300745728
+readelf: Warning: Section 2 has an out of range sh_link value of 4278190208
+readelf: Warning: Section 3 has an out of range sh_link value of 1482184792
+readelf: Error: Reading 0x58580010 bytes extends past end of file for string table
+readelf: Error: Section 0 has invalid sh_entsize of 00000000e0002211
+readelf: Error: (Using the expected size of 8 for the rest of this dump)
+readelf: Warning: [ 0]: Link field (531693823) should index a symtab section.
+readelf: Warning: [ 0]: Info field (2147483648) should index a relocatable section.
+readelf: Warning: section 0: sh_link value of 531693823 is larger than the number of sections
+readelf: Warning: [ 1]: Expected link to another section in info fieldreadelf: Warning: section 1: sh_link value of 300745728 is larger than the number of sections
+readelf: Warning: [ 2]: Unexpected value (150995192) in info field.
+readelf: Warning: section 2: sh_link value of 4278190208 is larger than the number of sections
+readelf: Warning: [ 3]: Unexpected value (1482184792) in info field.
+readelf: Warning: section 3: sh_link value of 1482184792 is larger than the number of sections
+==120601==WARNING: AddressSanitizer failed to allocate 0x2000000000 bytes
+==120601==AddressSanitizer's allocator is terminating the process instead of returning 0
+==120601==If you don't like this behavior set allocator_may_return_null=1
+==120601==AddressSanitizer CHECK failed: /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225 "((0)) != (0)" (0x0, 0x0)
+    #0 0x4e37a5 in __asan::AsanCheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_rtl.cc:69
+    #1 0x501065 in __sanitizer::CheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_termination.cc:79
+    #2 0x4e9ba6 in __sanitizer::ReportAllocatorCannotReturnNull() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225
+    #3 0x4e9be6 in __sanitizer::ReturnNullOrDieOnFailure::OnBadRequest() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:241
+    #4 0x41fa96 in __asan::asan_malloc(unsigned long, __sanitizer::BufferedStackTrace*) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_allocator.cc:856
+    #5 0x4da62b in __interceptor_malloc /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_malloc_linux.cc:89
+    #6 0x69439b in xmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/libiberty/./xmalloc.c:148:12
+    #7 0x60bd5f in cmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/dwarf.c:7450:10
+    #8 0x571cb6 in get_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:4761:33
+    #9 0x53bd91 in process_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:4814:9
+    #10 0x52b014 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:16751:7
+    #11 0x518077 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17138:13
+    #12 0x515c56 in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf.c:17209:12
+    #13 0x7f972d96e83f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+    #14 0x41a708 in _start (/workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_AFL/binutils/readelf+0x41a708)
+

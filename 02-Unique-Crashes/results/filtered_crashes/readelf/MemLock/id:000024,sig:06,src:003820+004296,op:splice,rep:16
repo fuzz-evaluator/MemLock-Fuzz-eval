@@ -1,0 +1,217 @@
+readelf: Warning: Section 1 has an out of range sh_link value of 2424307712
+readelf: Warning: Section 4 has an out of range sh_link value of 2097152
+readelf: Warning: Section 5 has an out of range sh_link value of 606348324
+readelf: Warning: Section 6 has an out of range sh_link value of 606348324
+readelf: Warning: Section 7 has an out of range sh_link value of 67372036
+readelf: Warning: Section 8 has an out of range sh_link value of 67372036
+readelf: Warning: Section 9 has an out of range sh_link value of 67372036
+readelf: Warning: Section 10 has an out of range sh_link value of 67372036
+readelf: Warning: Section 11 has an out of range sh_link value of 67372036
+readelf: Warning: Section 12 has an out of range sh_link value of 67372036
+readelf: Warning: Section 13 has an out of range sh_link value of 67372036
+readelf: Warning: Section 14 has an out of range sh_link value of 67372036
+readelf: Warning: Section 15 has an out of range sh_link value of 67372036
+readelf: Warning: Section 16 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 16 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 17 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 17 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 18 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 18 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 19 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 19 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 20 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 20 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 21 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 21 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 22 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 22 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 23 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 23 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 24 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 24 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 25 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 25 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 26 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 26 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 27 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 27 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 28 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 28 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 29 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 29 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 30 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 30 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 31 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 31 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 32 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 32 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 33 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 33 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 34 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 34 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 35 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 35 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 36 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 36 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 37 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 37 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 38 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 38 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 39 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 39 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 40 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 40 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 41 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 41 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 42 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 42 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 43 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 43 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 44 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 44 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 45 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 45 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 46 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 46 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 47 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 47 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 48 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 48 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 49 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 49 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 50 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 50 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 51 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 51 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 52 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 52 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 53 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 53 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 54 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 54 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 55 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 55 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 56 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 56 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 57 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 57 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 58 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 58 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 59 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 59 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 60 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 60 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 61 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 61 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 62 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 62 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 63 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 63 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 64 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 64 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 65 has an out of range sh_link value of 4008636142
+readelf: Warning: Section 65 has an out of range sh_info value of 4008636142
+readelf: Warning: Section 169 has an out of range sh_link value of 524288
+readelf: Warning: Section 172 has an out of range sh_link value of 4294967295
+readelf: Error: Section 0 has invalid sh_entsize of 0000000000010000
+readelf: Error: (Using the expected size of 4 for the rest of this dump)
+readelf: Warning: [ 0]: Link field (12) should index a symtab section.
+readelf: Warning: section 1: sh_link value of 2424307712 is larger than the number of sections
+readelf: Warning: section 4: sh_link value of 2097152 is larger than the number of sections
+readelf: Warning: [ 5]: Unexpected value (606348324) in info field.
+readelf: Warning: section 5: sh_link value of 606348324 is larger than the number of sections
+readelf: Warning: [ 6]: Unexpected value (606348324) in info field.
+readelf: Warning: section 6: sh_link value of 606348324 is larger than the number of sections
+readelf: Warning: [ 7]: Unexpected value (67372036) in info field.
+readelf: Warning: section 7: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [ 8]: Unexpected value (67372036) in info field.
+readelf: Warning: section 8: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [ 9]: Unexpected value (67372036) in info field.
+readelf: Warning: section 9: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [10]: Unexpected value (67372036) in info field.
+readelf: Warning: section 10: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [11]: Unexpected value (67372036) in info field.
+readelf: Warning: section 11: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [12]: Unexpected value (67372036) in info field.
+readelf: Warning: section 12: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [13]: Unexpected value (67372036) in info field.
+readelf: Warning: section 13: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [14]: Unexpected value (67372036) in info field.
+readelf: Warning: section 14: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [15]: Unexpected value (67372036) in info field.
+readelf: Warning: section 15: sh_link value of 67372036 is larger than the number of sections
+readelf: Warning: [16]: Expected link to another section in info fieldreadelf: Warning: section 16: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [17]: Expected link to another section in info fieldreadelf: Warning: section 17: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [18]: Expected link to another section in info fieldreadelf: Warning: section 18: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [19]: Expected link to another section in info fieldreadelf: Warning: section 19: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [20]: Expected link to another section in info fieldreadelf: Warning: section 20: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [21]: Expected link to another section in info fieldreadelf: Warning: section 21: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [22]: Expected link to another section in info fieldreadelf: Warning: section 22: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [23]: Expected link to another section in info fieldreadelf: Warning: section 23: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [24]: Expected link to another section in info fieldreadelf: Warning: section 24: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [25]: Expected link to another section in info fieldreadelf: Warning: section 25: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [26]: Expected link to another section in info fieldreadelf: Warning: section 26: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [27]: Expected link to another section in info fieldreadelf: Warning: section 27: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [28]: Expected link to another section in info fieldreadelf: Warning: section 28: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [29]: Expected link to another section in info fieldreadelf: Warning: section 29: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [30]: Expected link to another section in info fieldreadelf: Warning: section 30: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [31]: Expected link to another section in info fieldreadelf: Warning: section 31: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [32]: Expected link to another section in info fieldreadelf: Warning: section 32: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [33]: Expected link to another section in info fieldreadelf: Warning: section 33: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [34]: Expected link to another section in info fieldreadelf: Warning: section 34: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [35]: Expected link to another section in info fieldreadelf: Warning: section 35: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [36]: Expected link to another section in info fieldreadelf: Warning: section 36: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [37]: Expected link to another section in info fieldreadelf: Warning: section 37: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [38]: Expected link to another section in info fieldreadelf: Warning: section 38: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [39]: Expected link to another section in info fieldreadelf: Warning: section 39: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [40]: Expected link to another section in info fieldreadelf: Warning: section 40: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [41]: Expected link to another section in info fieldreadelf: Warning: section 41: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [42]: Expected link to another section in info fieldreadelf: Warning: section 42: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [43]: Expected link to another section in info fieldreadelf: Warning: section 43: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [44]: Expected link to another section in info fieldreadelf: Warning: section 44: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [45]: Expected link to another section in info fieldreadelf: Warning: section 45: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [46]: Expected link to another section in info fieldreadelf: Warning: section 46: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [47]: Expected link to another section in info fieldreadelf: Warning: section 47: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [48]: Expected link to another section in info fieldreadelf: Warning: section 48: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [49]: Expected link to another section in info fieldreadelf: Warning: section 49: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [50]: Expected link to another section in info fieldreadelf: Warning: section 50: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [51]: Expected link to another section in info fieldreadelf: Warning: section 51: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [52]: Expected link to another section in info fieldreadelf: Warning: section 52: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [53]: Expected link to another section in info fieldreadelf: Warning: section 53: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [54]: Expected link to another section in info fieldreadelf: Warning: section 54: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [55]: Expected link to another section in info fieldreadelf: Warning: section 55: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [56]: Expected link to another section in info fieldreadelf: Warning: section 56: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [57]: Expected link to another section in info fieldreadelf: Warning: section 57: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [58]: Expected link to another section in info fieldreadelf: Warning: section 58: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [59]: Expected link to another section in info fieldreadelf: Warning: section 59: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [60]: Expected link to another section in info fieldreadelf: Warning: section 60: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [61]: Expected link to another section in info fieldreadelf: Warning: section 61: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [62]: Expected link to another section in info fieldreadelf: Warning: section 62: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [63]: Expected link to another section in info fieldreadelf: Warning: section 63: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [64]: Expected link to another section in info fieldreadelf: Warning: section 64: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [65]: Expected link to another section in info fieldreadelf: Warning: section 65: sh_link value of 4008636142 is larger than the number of sections
+readelf: Warning: [135]: Unexpected value (2293760) in info field.
+readelf: Warning: section 169: sh_link value of 524288 is larger than the number of sections
+readelf: Warning: section 172: sh_link value of 4294967295 is larger than the number of sections
+readelf: Warning: [173]: Unexpected value (25600) in info field.
+readelf: Error: Bad sh_link in group section `<no-name>'
+==87340==WARNING: AddressSanitizer failed to allocate 0x3ffd000000 bytes
+==87340==AddressSanitizer's allocator is terminating the process instead of returning 0
+==87340==If you don't like this behavior set allocator_may_return_null=1
+==87340==AddressSanitizer CHECK failed: /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225 "((0)) != (0)" (0x0, 0x0)
+    #0 0x4e3805 in __asan::AsanCheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_rtl.cc:69
+    #1 0x5010c5 in __sanitizer::CheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_termination.cc:79
+    #2 0x4e9c06 in __sanitizer::ReportAllocatorCannotReturnNull() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:225
+    #3 0x4e9c46 in __sanitizer::ReturnNullOrDieOnFailure::OnBadRequest() /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/sanitizer_common/sanitizer_allocator.cc:241
+    #4 0x41faf6 in __asan::asan_malloc(unsigned long, __sanitizer::BufferedStackTrace*) /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_allocator.cc:856
+    #5 0x4da68b in __interceptor_malloc /mnt/d/CLib/llvm-6.0.1/projects/compiler-rt/lib/asan/asan_malloc_linux.cc:89
+    #6 0x696eaa in xmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/libiberty/./xmalloc.c:148:12
+    #7 0x60dbdf in cmalloc /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/dwarf.c:7450:10
+    #8 0x5735b6 in get_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4761:33
+    #9 0x53ce21 in process_program_headers /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:4814:9
+    #10 0x52bcf4 in process_object /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:16751:7
+    #11 0x518897 in process_file /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17138:13
+    #12 0x51643b in main /workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf.c:17209:12
+    #13 0x7f66d4ed883f in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2083f)
+    #14 0x41a768 in _start (/workdir/MemLock/evaluation/BUILD/readelf_b9913fd2/SRC_MemLock/binutils/readelf+0x41a768)
+

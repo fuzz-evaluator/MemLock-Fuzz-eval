@@ -1,0 +1,3 @@
+[submodule "Memlock-Fuzz-upstream"]
+	path = Memlock-Fuzz-upstream
+	url = https://github.com/fuzz-evaluator/MemLock-Fuzz-upstream.git

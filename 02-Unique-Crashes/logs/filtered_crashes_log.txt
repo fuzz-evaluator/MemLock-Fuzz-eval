@@ -1,0 +1,6 @@
+MemLock@cxxfilt: 6 of 5321 crashed with applied patch (5314 without the patch)
+AFL@cxxfilt: 0 of 3684 crashed with applied patch (3684 without the patch)
+MemLock@readelf: 1100 of 1100 crashed with applied patch (1100 without the patch)
+AFL@readelf: 3311 of 3311 crashed with applied patch (3311 without the patch)
+MemLock@nm: 13 of 1717 crashed with applied patch (1714 without the patch)
+AFL@nm: 8 of 464 crashed with applied patch (464 without the patch)
